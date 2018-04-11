@@ -6,4 +6,4 @@
         msg: "Hello World!"
 - fail:
     msg: "The system may not be provisioned according to the CMDB status."
-  when: "to-be-staged" != "to-be-staged"
+  when: true
