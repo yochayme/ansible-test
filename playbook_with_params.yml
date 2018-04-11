@@ -4,5 +4,4 @@
     - name: Hello Message
       debug:
         msg: "Hello World!"
-    - pause:
-      seconds: {{ pauseInSec }}
+    - pause: seconds={{ pauseInSec }}
