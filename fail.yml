@@ -1,0 +1,3 @@
+- fail:
+    msg: "The system may not be provisioned according to the CMDB status."
+  when: true
