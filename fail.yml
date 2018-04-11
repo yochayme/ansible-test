@@ -1,3 +1,4 @@
-- fail:
-    msg: "The system may not be provisioned according to the CMDB status."
+- name: fail the play if the previous command did not succeed
+  fail:
+    msg: "the command failed"
   when: true
