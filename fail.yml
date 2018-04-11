@@ -1,4 +1,0 @@
-- name: fail the play if the previous command did not succeed
-  fail:
-    msg: "the command failed"
-  when: true
