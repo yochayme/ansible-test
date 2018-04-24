@@ -1,0 +1,7 @@
+- name: Hello World Sample
+  hosts: all
+  tasks:
+    - name: Hello Message
+      debug: msg='{{ message}}'
+    - pause: seconds={{ pauseInSec }}
+    - tags: newTag
