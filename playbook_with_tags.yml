@@ -3,6 +3,6 @@
   tasks:
     - name: Hello Message
       debug: msg='{{ message}}'
-    - pause: seconds={{ pauseInSec }}
+    - pause: seconds='{{ pauseInSec }}'
       tags:
         - newTag
