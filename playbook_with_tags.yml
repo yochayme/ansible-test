@@ -5,5 +5,5 @@
     - name: Hello Message
       debug: msg='{{ message}}'
       tags:
-        - newTag
+        - tagToRun
     - pause: seconds={{ pauseInSec }}
